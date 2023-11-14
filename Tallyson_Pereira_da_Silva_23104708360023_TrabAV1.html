@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Rústica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Coiny&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Coiny&family=Shrikhand&display=swap" rel="stylesheet">
+</head>
+
+<body style="margin: 0;">
+
+    <nav style="background-color:  rgba(244, 160, 4, 0.882);padding-top: 0.5%; padding-bottom: 0.1%;">
+
+        <ul>
+            <li style="display: inline-block; margin-left: 3%;"><img src="./logotipo.png" width="50px"></li>
+            <li style="margin-left: 7%; display: inline-block; align-items: center; font-size: 23px; color: white; 
+                font-family: Coiny;">
+                Início</li>
+            <a href="#sobre" style="text-decoration: none;">
+                <li style="margin-left: 7%; display: inline-block; align-items: center; font-size: 23px; color: white;
+            font-family: Coiny;">
+                    Sobre</li>
+            </a>
+            <a href="#cardapio" style="text-decoration: none;"><li style="margin-left: 7%; display: inline-block; align-items: center; font-size: 23px; color: white;
+            font-family: Coiny;">
+                Cardápio</li>
+            </a>
+            <a href="#promocoes"><li style="margin-left: 7%; display: inline-block; align-items: center; font-size: 23px; color: white;
+            font-family: Coiny;">
+                Promoções</li>
+            </a>
+            <li style="margin-left: 7%; display: inline-block; align-items: center; font-size: 23px; color: white;
+            font-family: Coiny;">
+                Acompanhar Pedido</li>
+            <li style="display: inline-block; margin-left: 5%;"><img src="./logotipo.png" width="50px"></li>
+        </ul>
+    </nav>
+    <header style="height: 150px;">
+        <figure style="text-align: center;">
+            <img src="./coroa.png" style="height: 80px">
+            <h2 style="font-family: Coiny; color: #c51111;">Empório Rústico</h2>
+        </figure>
+    </header>
+    <section
+        style="font-size: 30px; margin-left: 10%; width: 80%; text-align: center; display: inline-block; color: rgba(244, 160, 4, 0.882); font-family: Coiny; margin-bottom: 15%; ">
+        <p">A melhor experiência da culinária Italiana está aqui!</p>
+            <a href="#pedido" style="text-decoration: none;">
+                <p style=" background-color: rgba(244, 160, 4, 0.882); color: #ffffff; width: 20%; margin-left: 40% ; border-radius: 20px; 
+        padding: 1%; margin-top: 10%;" onmouseover="this.style.transform='scale(1.1)';"
+                    onmouseout="this.style.transform='scale(1)' ">PEDIR AGORA</p>
+            </a>
+    </section>
+    <section style="text-align: center; margin-top: 10%; display: inline-block;" id="promocoes">
+        <div
+            style="background-color: rgba(244, 160, 4, 0.882); margin-bottom: 5%; border-radius: 20px; width: 90%; margin-left: 5%;">
+            <h2 style="color: #ffffff; font-family: Coiny; font-size: 30px; display: inline-block;">
+                PROMOÇÕES</h2>
+        </div>
+        <div style="height: 500px; width: 100%;">
+            <figure
+                style="width: 40% ;display: inline-block; background-color: rgba(244, 160, 4, 0.882); height: 200px; border-radius: 20px; padding-top: 2%;">
+                <img src="./calabresa.jpg" style="width: 30%; border-radius: 50%;">
+                <p style="color: #ffffff; font-family: Coiny;">Pizza 45CM + Refrigerante 2L + Pizza doce 30cm<br>R$
+                    59,90</p>
+            </figure>
+            <figure
+                style="width: 40% ;display: inline-block; background-color: rgba(244, 160, 4, 0.882); height: 200px; border-radius: 20px; padding-top: 2%;">
+                <img src="./calzone.jpg" style="width: 30%; border-radius: 50%;">
+                <p style="color: #ffffff; font-family: Coiny;">Calzone 30cm de Quejo e Presento + refigerante 2L
+                    grátis<br>R$
+                    39,90</p>
+            </figure>
+            <figure
+                style="width: 40% ;display: inline-block; background-color: rgba(244, 160, 4, 0.882); height: 200px; border-radius: 20px; padding-top: 2%; padding-bottom: 0.8%;">
+                <img src="./macarrao.jpg" style="width: 30%; border-radius: 50%;">
+                <p style="color: #ffffff; font-family: Coiny;">Macarrão a bolonhesa 500g para duas pessoas<br>R$
+                    29,90</p>
+            </figure>
+            <figure
+                style="width: 40% ;display: inline-block; background-color: rgba(244, 160, 4, 0.882); height: 200px; border-radius: 20px; padding-top: 3%;">
+                <img src="./risoto.jpg" style="width: 30%; border-radius: 60%;">
+                <p style="color: #ffffff; font-family: Coiny;">Risoto à carbonada 300g<br>R$
+                    25,90</p>
+            </figure>
+        </div>
+    </section>
+    <section id="sobre">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yiFEksEWXEc?si=ivEgh0vcuRkc7Mv8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen style="margin-left: 34%; margin-top: 10%; border-radius: 20px;"></iframe>
+    </section>
+    <section style="text-align: center; margin-top: 10%; width: 80%; margin-left: 10%;" id="cardapio">
+        <div style=" margin-bottom: 5%; border-radius: 20px; width: 90%; margin-left: 5%;">
+            <h2 style="color:#f67828; font-family: Coiny; font-size: 30px; display: inline-block;">
+                CARDÁPIO</h2>
+        </div>
+        <div style=" padding: 5%; padding-top: 5%; padding-bottom: 3%;">
+            <table
+                style="font-size: 30px; border: 1px solid black;width: 100%; border-radius: 10px; color: #ffffff; font-family: 'Courier New', Courier, monospace; background-color: rgb(245, 197, 114);">
+                <tr style="border: 1px solid black;background-color: rgba(244, 160, 4, 0.882); border-radius: 50px;">
+                    <th style="border: 1px solid black; ">Massas</th>
+                    <th style="border: 1px solid black;">Descrição</th>
+                    <th style="border: 1px solid black;">Valores</th>
+                </tr>
+                <tr style="border: 1px solid black;">
+                    <td style="border: 1px solid black;"><img src="./calabresa.jpg"
+                            style="width: 20%; border-radius: 50%; margin-top: 5%; "><br>
+                        <p style="font-size: 20px;">Pizza de calabresa 35cm</p>
+                    </td>
+                    <td style="border: 1px solid black;font-size: 20px;">A pizza conta com uma camada de molho de
+                        tomate, recheada com
+                        queijo mussarela, orégano e
+                        calabresas
+                        cortadas em rodelas.</td>
+                    <td style="border: 1px solid black; font-size: 20px;">39,90 R$</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black;"><img src="./calzone.jpg"
+                            style="width: 20%; border-radius: 50%; margin-top: 5%;"><br>
+                        <p style="font-size: 20px;">Calzone de Queijo e Presunto</p>
+                    </td>
+                    <td style="border: 1px solid black;font-size: 20px;">Delicioso calzone de 30cm que leva molho de
+                        tomate, queijo, presunto, cebola picada e orégano.</td>
+                    <td style="border: 1px solid black; font-size: 20px;">35,90 R$</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black;"><img src="./macarrao.jpg"
+                            style="width: 20%; border-radius: 50%; margin-top: 5%;"><br>
+                        <p style="font-size: 20px;">Pizza de calabresa 35cm</p>
+                    </td>
+                    <td style="border: 1px solid black;font-size: 20px;">Mcararrão a bolonhesa de 500g + batata frita e
+                        refrigerante, serve duas pessoas.</td>
+                    <td style="border: 1px solid black; font-size: 20px;">39,90 R$</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid black;"><img src="./risoto.jpg"
+                            style="width: 20%; border-radius: 50%; margin-top: 5%;"><br>
+                        <p style="font-size: 20px;">Risoto à Carbonara 500g</p>
+                    </td>
+                    <td style="border: 1px solid black;font-size: 20px;">Receita de Risoto à carbonara passada de
+                        geração em geração.</td>
+                    <td style="border: 1px solid black; font-size: 20px;">29,90 R$</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section
+        style="width: 60%; margin-left: 20.5%; font-family: Coiny; color: #ffffff; margin-top: 5%;margin-bottom: 5%;">
+        <form
+            style="text-align: center; background-color:  rgba(244, 160, 4, 0.882); border-radius: 20px; padding: 3%;">
+            <fieldset style="border-radius: 20px;border: solid 0px rgba(244, 160, 4, 0.882); ">
+                <legend style="font-size: 30px;" id="pedido">Faça seu pedido</legend><br>
+                <label for="Nome">Nome</label><br>
+                <input style="border:solid 1px #ffffff; border-radius: 20px; padding: 10px;" type="text" name="nome"
+                    placeholder="Digite o nome" size="40"><br><br>
+                <label for="email">Email</label><br>
+                <input style="border:solid 1px #ffffff; border-radius: 20px; padding: 10px;" type="email" name="email"
+                    placeholder="Digite o mail" size="40"><br><br>
+
+
+                <label for="endereco">Endereço</label><br>
+                <input style="border:solid 1px #ffffff; border-radius: 20px; padding: 10px;" type="text" name="endereco"
+                    placeholder="Digite o endereço" size="40"><br><br>
+
+                <label for="endereco">Cep</label><br>
+                <input style="border:solid 1px #ffffff; border-radius: 20px; padding: 10px;" type="text" name="endereco"
+                    placeholder="Digite o cep" size="40"><br><br>
+
+
+                <div style="width: 100%;">
+                    <input type="checkbox" style="display: inline-block; vertical-align: middle;">
+                    <label style="display: inline-block; vertical-align: middle; margin-right: 17.5%;">Pizza
+                        45cm</label><br>
+                    <input type="number" id="quantidade" name="quantidade" min="0" value="0"
+                        style="width: 30%; border-radius: 20px; border: 1px solid #ffffff; padding: 10px;">
+
+
+                    <br><br>
+                    <input type="checkbox" style="display: inline-block; vertical-align: middle;">
+                    <label style="display: inline-block; vertical-align: middle;">Calzone de Queijo com
+                        Presunto</label><br>
+                    <input type="number" id="quantidade" name="quantidade" min="0" value="0"
+                        style="width: 30%; border-radius: 20px; border: 1px solid #ffffff; padding: 10px;">
+                    <br>
+                    <br>
+                    <input style="margin-left: 8%;" type="checkbox"
+                        style="display: inline-block; vertical-align: middle;">
+                    <label style="display: inline-block; vertical-align: middle; margin-right: 10.5%;">Espaguete a
+                        bolonhesa 500g</label>
+                    <br>
+                    <input type="number" id="quantidade" name="quantidade" min="0" value="0"
+                        style="width: 30%; border-radius: 20px; border: 1px solid #ffffff; padding: 10px;">
+                    <br>
+                    <br>
+                    <input type="checkbox" style="display: inline-block; vertical-align: middle;">
+                    <label style="display: inline-block; vertical-align: middle;margin-right: 5%;">Risoto à Carbonara
+                        500g</label>
+                    <br>
+                    <input type="number" id="quantidade" name="quantidade" min="0" value="0"
+                        style="width: 30%; border-radius: 20px; border: 1px solid #ffffff; padding: 10px;">
+                    <br>
+                    <br>
+                </div>
+                <br><br><br>
+                <label>Formas de Pagamento</label><br><br>
+                <select name="Pagamento" required="required" style="border-radius: 20px; width: 32%; padding: 10px; ">
+                    <option value="">ESCOLHER PAGAMENTO</option>
+                    <option value="dinheiro">Dinheiro</option>
+                    <option value="pix">Pix</option>
+                    <option value="debito">Débito</option>
+                    <option value="credito">Crédito</option>
+                    <option value="valerefeicao">Vale Refeição</option>
+                </select><br><br>
+                <button
+                    style="border:solid 1px #ffffff; border-radius: 20px; padding: 15px; width: 15%; background-color: #ffffff; font-family: Coiny;"
+                    type="submit" onmouseover="this.style.backgroundColor='rgba(244, 160, 4, 0.882)';"
+                    onmouseout="this.style.backgroundColor='#ffffff';">PEDIR</button>
+            </fieldset>
+        </form>
+    </section>
+    <footer style="background-color: rgba(244, 160, 4, 0.882); width: 100%;height: 100%;padding-bottom: 1%;">
+        <figure style="text-align: center;">
+            <img src="./coroa.png" style="height: 80px">
+            <h2 style="font-family: Coiny; color: #c51111;">Empório Rústico</h2>
+            <h2 style="font-family: Coiny; color: #000000;">Contato: 21 99999-9999</h2>
+        </figure>
+        <figure style="text-align: center;">
+            <h2 style="font-family: 'Times New Roman', Times, serif; color: #000000;">
+                <p>© 2023 TODOS OS DIREITOS RESERVADOS.</p>
+            </h2>
+        </figure>
+    </footer>
+</body>
+
+</html>
